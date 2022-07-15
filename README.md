@@ -3,7 +3,7 @@
 ## Overview
 The objective of this project is to analyze ride-sharing data by city type (urban, suburban, rural). The data was pulled into a dataframe to summarize the information and a multi-line graph was produced to show the weekly fares by city type. 
 
-##Results
+## Results
 The summary dataframe was produced using the below (dataframe) coding after *groupby* functions were used on the data to calculate the total rides, total drivers, total fares, average fare per ride, and average fare per driver for each city type.
 
 ![image](https://user-images.githubusercontent.com/107161421/179130525-7e5965fa-ea7a-4804-b747-c9e7cc807e27.png)
@@ -24,7 +24,7 @@ The dataframe breaks out each city types total fares by each week during the spe
 
 The graph helps to illustrate the fare data for each city type- urban cities consistently have the highest fares, rural cities consistantly have the lowest fares, and interestingly all three city types had a slight spike in fares the last week of February. 
 
-##Summary
+## Summary
 Based on the findings in this study Pyber could take steps to resolve the disparities between their service in different types of cities.
 
 The data shows that there are more drivers than rides in urban cities, almost double. Cutting back on the total number of drivers in urban areas could bring the average fare per driver up. The urban market is currently oversaturated with drivers and the average fare they are brining in is only $16.57 compared to $55.49 in rural areas and $39.50 in suburban areas. 
