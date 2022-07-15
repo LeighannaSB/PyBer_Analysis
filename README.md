@@ -5,15 +5,23 @@ The objective of this project is to analyze ride-sharing data by city type (urba
 
 ##Results
 The summary dataframe was produced using the below (dataframe) coding after *groupby* functions were used on the data to calculate the total rides, total drivers, total fares, average fare per ride, and average fare per driver for each city type.
+
 ![image](https://user-images.githubusercontent.com/107161421/179130525-7e5965fa-ea7a-4804-b747-c9e7cc807e27.png)
+
 The data frame was then formatted to make the results easier to read using the below *format* codes and then the dataframe was complete.
+
 ![image](https://user-images.githubusercontent.com/107161421/179130702-ad2b21f0-d978-4a72-a47a-99113efeb96e.png)
+
 The data frame shows urban cities have the highest total rides, total drivers, and total fares. However, rural cities have the highest average fare per ride and per driver. 
 
 The data was then used to create another dataframe focused on the total fares per city type by date; specifically focusing on the time period of 2019-01-01 to 2019-04-29.
+
 ![image](https://user-images.githubusercontent.com/107161421/179131222-d82ba8e9-ba80-4184-b0a2-b513e1a7d6f0.png)
+
 The dataframe breaks out each city types total fares by each week during the specified four month period. This is great information but is would be easier to understand and visualize in graph form. To accomplish this task the dataframe was used to create a multi-line graph using a *df.plot()* function.
+
 ![image](https://user-images.githubusercontent.com/107161421/179131465-de484c5e-fadd-4277-9997-b641f0ca4764.png)
+
 The graph helps to illustrate the fare data for each city type- urban cities consistently have the highest fares, rural cities consistantly have the lowest fares, and interestingly all three city types had a slight spike in fares the last week of February. 
 
 ##Summary
